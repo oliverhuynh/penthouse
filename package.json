@@ -17,6 +17,9 @@
   },
   "license": "MIT",
   "main": "./lib/index.js",
+  "bin": {
+    "penthouse": "./cli/cli.js"
+  },
   "engines": {
     "node": ">=8.16.0"
   },

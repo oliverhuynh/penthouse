@@ -21,6 +21,12 @@ yarn add --dev penthouse
 ```
 (or `npm install`, if not using [yarn](https://yarnpkg.com))
 
+## CLI
+After adding penthouse, a cli would be available to convert on the fly
+Examples:
+- `penthouse --help`
+- `penthouse --renderWaitTime=20000 --keepLargerMediaQueries=true --url='https://google.com' --css=./tmp/full.css > tmp/out.css`
+
 ### Basic example
 
 ```js
